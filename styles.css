@@ -50,6 +50,47 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+.btn {
+  background-color: 9146FF;
+  width: 150px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn-2 {
+  background-color: red;
+  width: 150px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image {
+  width: 25px;
+}
+
+.b {
+  display: flex;
+  justify-content: space-around;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
